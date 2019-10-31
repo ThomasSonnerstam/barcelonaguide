@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
+    <title>En resa till Barcelona</title>
     <meta charset="UTF-8">
-    <title> En resa till Barcelona</title>
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/sanitize.css@11.0.0/sanitize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -18,7 +20,7 @@
                     <a href="index.php">Hem</a>
                 </li>
                 <li>
-                    <a href="#">Resemål</a>
+                    <a class="travel" href="#">Resmål</a>
                     <ul class="submenu">
                         <li>
                             <a href="westside.php">"West Side"</a>

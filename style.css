@@ -4,14 +4,32 @@
 	box-sizing: border-box;
 }
 
-/* FONTS */
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700&display=swap');
-
 /* BASE STYLES */
 
+.travel {
+	display: flex;
+}
+
+.downArrow {
+	width: 10px;
+	height: 10px;
+}
+
+main {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Index.php */
+
+.introWrapper {
+	display: flex;
+	flex-direction: column;
+}
+
 .main-nav {
-	margin: 10px 15% 10px 15%;
+	margin: 0 0 10px 0;
 	border: 1px solid black;
 }
 
@@ -19,8 +37,7 @@
 	font-family: "Roboto";
 	text-decoration: none;
 	color: rgb(0, 0, 0);
-	background: rgb(228, 108, 4);
-	font-weight: bold;
+	background: #232323;
 	height: 40px;
 }
 
@@ -33,7 +50,7 @@
 	background-size: cover;
 	border: 1px solid rgb(0, 0, 0);
 	height: 600px;
-	margin: 50px 15% 10px 15%;
+	margin: 50px;
 }
 
 .intro h1 {
@@ -64,7 +81,7 @@ p {
 
 /* MEDIA QUERIES */
 
-/* Small devices (phones portrait) */
+/* Small devices (phones portrait) *****************************/
 
 @media (max-width: 575px) {
 
@@ -78,7 +95,6 @@ p {
 		display: flex;
 		list-style-type: none;
 		flex-direction: column;
-
 	}
 
 	.main-nav li {
@@ -97,6 +113,7 @@ p {
 		align-items: center;
 		justify-content: center;
 		height: 3em;
+		color: #fff;
 	}
 
 	.submenu {
@@ -461,7 +478,7 @@ p {
 	}
 }
 
-/* Small devices (landscape phones, 576px and up) */
+/* Small devices (landscape phones, 576px and up) *****************/
 @media (min-width: 576px) and (max-width: 767px) {
 
 	/* NAVIGATION START */
@@ -492,6 +509,7 @@ p {
 		align-items: center;
 		justify-content: center;
 		height: 3em;
+		color: #fff;
 	}
 
 	.submenu {
@@ -856,7 +874,7 @@ p {
 	}
 }
 
-/* Medium devices (tablets, 768px and up) */
+/* Medium devices (tablets, 768px and up) *********************/
 @media (min-width: 768px) and (max-width: 991px) {
 
 	/* NAVIGATION START */
@@ -886,6 +904,7 @@ p {
 		align-items: center;
 		justify-content: center;
 		height: 3em;
+		color: #fff;
 	}
 
 	.submenu {
@@ -1248,7 +1267,7 @@ p {
 	}
 }
 
-/* Large devices (desktops, 992px and up) */
+/* Large devices (desktops, 992px and up) ***********************/
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
@@ -1270,6 +1289,7 @@ p {
 		align-items: center;
 		justify-content: center;
 		flex-direction: row;
+		color: #fff;
 	}
 
 	.main-nav li:hover .submenu li {
@@ -1635,7 +1655,7 @@ p {
 	}
 }
 
-/* Large devices (desktops, 1200px and up) */
+/* Large devices (desktops, 1200px and up) *********************/
 @media (min-width: 1200px) {
 	/* NAVIGATION START */
 
@@ -1655,6 +1675,7 @@ p {
 		align-items: center;
 		justify-content: center;
 		flex-direction: row;
+		color: #fff;
 	}
 
 	.main-nav li:hover .submenu li {
@@ -1681,24 +1702,31 @@ p {
 		background-image: url("barcelona.jpg");
 		background-size: cover;
 		display: flex;
-		align-items: center;
 		flex-direction: column;
 		border: 1px solid rgb(0, 0, 0);
-		height: 700px;
-		margin: 50px 15% 10px 15%;
+		height: 80vh;
+		width: 80vw;
+		align-self: center;
+	}
+
+	.introWrapper {
+		width: 50%;
+		align-self: center;
+		margin-top: 30px;
+		background-color: rgba(255, 255, 255, 0.7)
 	}
 
 	.intro h1 {
-		order: 2;
+		width: 60%;
+		align-self: center;
 	}
 
 	.intro p {
 		width: 60%;
-		margin-top: 2%;
-		text-align: center;
+		align-self: center;
 		line-height: 1.75em;
 		color: black;
-		order: 1;
+		margin-bottom: 32px;
 	}
 
 	/* INTRODUCTION END */
