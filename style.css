@@ -6,7 +6,7 @@
 
 /* BASE STYLES */
 
-.section {
+section {
 	display: flex;
 	flex-direction: column;
 	width: 80vw;
@@ -21,6 +21,15 @@ img {
 	height: auto;
 	align-self: center;
 	margin: 20px 0;
+}
+
+h1,
+p {
+	font-family: "Roboto";
+}
+
+a {
+	color: black;
 }
 
 /* Index.php */
@@ -45,7 +54,7 @@ img {
 .introWrapper {
 	width: 50%;
 	align-self: center;
-	margin-top: 30px;
+	margin: auto auto;
 	background-color: rgba(255, 255, 255, 0.7)
 }
 
@@ -54,7 +63,6 @@ main {
 	display: flex;
 	flex-direction: column;
 }
-
 
 .introWrapper {
 	display: flex;
@@ -109,186 +117,6 @@ p {
 	line-height: 1.5em;
 }
 
-/* WESTSIDE  */
-
-.westside {
-	display: flex;
-	flex-direction: column;
-	width: 80vw;
-	align-self: center;
-	margin: 50px 0;
-	padding: 20px;
-	border: 1px solid black;
-}
-
-.westside img {
-	max-width: 70%;
-	height: auto;
-	align-self: center;
-	margin: 20px 0;
-}
-
-.westside h1 {
-	text-align: center;
-}
-
-/* CYKELTUR  */
-
-.cykeltur {
-	display: flex;
-	flex-direction: column;
-	width: 80vw;
-	align-self: center;
-	margin: 50px 0;
-	padding: 20px;
-	border: 1px solid black;
-}
-
-.cykeltur img {
-	max-width: 70%;
-	height: auto;
-	align-self: center;
-	margin: 20px 0;
-}
-
-.cykeltur a {
-	color: black;
-}
-
-/* L'AQUARIUM */
-
-.laquarium {
-	display: flex;
-	flex-direction: column;
-	width: 80vw;
-	align-self: center;
-	margin: 50px 0;
-	padding: 20px;
-	border: 1px solid black;
-}
-
-.laquarium img {
-	max-width: 70%;
-	height: auto;
-	align-self: center;
-	margin: 20px 0;
-}
-
-/* LA RAMBLA */
-
-.larambla {
-	display: flex;
-	flex-direction: column;
-	width: 80vw;
-	align-self: center;
-	margin: 50px 0;
-	padding: 20px;
-	border: 1px solid black;
-}
-
-.larambla img {
-	max-width: 70%;
-	height: auto;
-	align-self: center;
-	margin: 20px 0;
-}
-
-/* LA SAGRADA FAMILIA */
-
-.lasagradafamilia {
-	display: flex;
-	flex-direction: column;
-	width: 80vw;
-	align-self: center;
-	margin: 50px 0;
-	padding: 20px;
-	border: 1px solid black;
-}
-
-.lasagradafamilia img {
-	max-width: 70%;
-	height: auto;
-	align-self: center;
-	margin: 20px 0;
-}
-
-/* ZOO DE BARCELONA */
-
-.zoodebarcelona {
-	display: flex;
-	flex-direction: column;
-	width: 80vw;
-	align-self: center;
-	margin: 50px 0;
-	padding: 20px;
-	border: 1px solid black;
-}
-
-.zoodebarcelona img {
-	max-width: 70%;
-	height: auto;
-	align-self: center;
-	margin: 20px 0;
-}
-
-/* TRANSPORT-CYKEL */
-
-.transportcykel {
-	display: flex;
-	flex-direction: column;
-	width: 80vw;
-	align-self: center;
-	margin: 50px 0;
-	padding: 20px;
-	border: 1px solid black;
-}
-
-.transportcykel img {
-	max-width: 70%;
-	height: auto;
-	align-self: center;
-	margin: 20px 0;
-}
-
-/* TRANSPORT-TRANSFER */
-
-.transporttransfer {
-	display: flex;
-	flex-direction: column;
-	width: 80vw;
-	align-self: center;
-	margin: 50px 0;
-	padding: 20px;
-	border: 1px solid black;
-}
-
-.transporttransfer img {
-	max-width: 70%;
-	height: auto;
-	align-self: center;
-	margin: 20px 0;
-}
-
-/* TRANSPORT-TUNNELBANA */
-
-.transporttunnelbana {
-	display: flex;
-	flex-direction: column;
-	width: 80vw;
-	align-self: center;
-	margin: 50px 0;
-	padding: 20px;
-	border: 1px solid black;
-}
-
-.transporttunnelbana img {
-	max-width: 70%;
-	height: auto;
-	align-self: center;
-	margin: 20px 0;
-}
-
-
 /* __________________________________________________________________ */
 /* MEDIA QUERIES */
 
@@ -297,10 +125,6 @@ p {
 @media (max-width: 575px) {
 
 	/* NAVIGATION START */
-
-	.main-nav {
-		margin: 10px;
-	}
 
 	.main-nav ul {
 		display: flex;
@@ -365,141 +189,14 @@ p {
 		margin-top: 2%;
 		text-align: center;
 		line-height: 1.25em;
-		color: black;
-	}
-
-	/* INTRODUCTION END */
-
-	/* [PRISER] */
-
-	.shopping {
-		display: flex;
-		flex-direction: column;
-		margin: 10px;
-	}
-
-	.shopping h1 {
-		margin-top: 20px;
-		order: 1;
-	}
-
-	.shopping p {
-		margin-top: 20px;
-		order: 3;
-	}
-
-	.shopping img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-		order: 2;
-	}
-
-	/* WEST SIDE */
-
-	/* CYKELTUR */
-
-	/* L'AQUARIUM */
-
-	/* LA RAMBLA */
-
-	/* LA SAGRADA FAMILIA */
-
-	/* ZOO DE BARCELONA */
-
-	/* TRANSPORT-CYKEL */
-
-	/* TRANSPORT-TRANSFER */
-
-	/* TRANSPORT-TUNNELBANA */
-
-	/* FÖRBEREDELSER HEMMA-FLYG */
-
-	.hemmaflyg {
-		display: flex;
-		flex-direction: column;
-		margin: 10px;
-	}
-
-	.hemmaflyg h1 {
-		margin-top: 20px;
-	}
-
-	.hemmaflyg p {
-		margin-top: 20px;
-	}
-
-	.hemmaflyg img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-	}
-
-	.hemmaflyg a {
-		color: black;
-	}
-
-	/* FÖRBEREDELSER HEMMA-HOTELL */
-
-	.hemmahotell {
-		display: flex;
-		flex-direction: column;
-		margin: 10px;
-	}
-
-	.hemmahotell h1 {
-		margin-top: 20px;
-	}
-
-	.hemmahotell p {
-		margin-top: 20px;
-	}
-
-	.hemmahotell img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-	}
-
-	.hemmahotell a {
-		color: black;
-	}
-
-	/* FÖRBEREDELSER HEMMA-PERIODER */
-
-	.hemmaperioder {
-		display: flex;
-		flex-direction: column;
-		margin: 10px;
-	}
-
-	.hemmaperioder h1 {
-		margin-top: 20px;
-	}
-
-	.hemmaperioder p {
-		margin-top: 20px;
-	}
-
-	.hemmaperioder img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
 	}
 }
+
 
 /* Small devices (landscape phones, 576px and up) *****************/
 @media (min-width: 576px) and (max-width: 767px) {
 
 	/* NAVIGATION START */
-
-	.main-nav {
-		margin: 10px;
-	}
 
 	.main-nav ul {
 		display: flex;
@@ -563,140 +260,14 @@ p {
 		margin-top: 2%;
 		text-align: center;
 		line-height: 1.25em;
-		color: black;
 	}
 
-	/* INTRODUCTION END */
-
-	/* [PRISER] */
-
-	.shopping {
-		display: flex;
-		flex-direction: column;
-		margin: 10px;
-	}
-
-	.shopping h1 {
-		margin-top: 20px;
-		order: 1;
-	}
-
-	.shopping p {
-		margin-top: 20px;
-		order: 3;
-	}
-
-	.shopping img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-		order: 2;
-	}
-
-	/* WEST SIDE */
-
-	/* CYKELTUR */
-
-	/* L'AQUARIUM */
-
-	/* LA RAMBLA */
-
-	/* LA SAGRADA FAMILIA */
-
-	/* ZOO DE BARCELONA */
-
-	/*  TRANSPORT-CYKEL */
-
-	/* TRANSPORT-TRANSFER */
-
-	/* TRANSPORT-TUNNELBANA */
-
-	/* FÖRBEREDELSER HEMMA-FLYG */
-
-	.hemmaflyg {
-		display: flex;
-		flex-direction: column;
-		margin: 10px;
-	}
-
-	.hemmaflyg h1 {
-		margin-top: 20px;
-	}
-
-	.hemmaflyg p {
-		margin-top: 20px;
-	}
-
-	.hemmaflyg img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-	}
-
-	.hemmaflyg a {
-		color: black;
-	}
-
-	/* FÖRBEREDELSER HEMMA-HOTELL */
-
-	.hemmahotell {
-		display: flex;
-		flex-direction: column;
-		margin: 10px;
-	}
-
-	.hemmahotell h1 {
-		margin-top: 20px;
-	}
-
-	.hemmahotell p {
-		margin-top: 20px;
-	}
-
-	.hemmahotell img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-	}
-
-	.hemmahotell a {
-		color: black;
-	}
-
-	/* FÖRBEREDELSER HEMMA-PERIODER */
-
-	.hemmaperioder {
-		display: flex;
-		flex-direction: column;
-		margin: 10px;
-	}
-
-	.hemmaperioder h1 {
-		margin-top: 20px;
-	}
-
-	.hemmaperioder p {
-		margin-top: 20px;
-	}
-
-	.hemmaperioder img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-	}
 }
 
 /* Medium devices (tablets, 768px and up) *********************/
 @media (min-width: 768px) and (max-width: 991px) {
 
 	/* NAVIGATION START */
-	.main-nav {
-		margin: 10px;
-	}
 
 	.main-nav ul {
 		display: flex;
@@ -759,129 +330,8 @@ p {
 		margin-top: 2%;
 		text-align: center;
 		line-height: 1.35em;
-		color: black;
 	}
 
-	/* [PRISER] */
-
-	.shopping {
-		display: flex;
-		flex-direction: column;
-		margin: 10px;
-	}
-
-	.shopping h1 {
-		margin-top: 20px;
-		order: 1;
-	}
-
-	.shopping p {
-		margin-top: 20px;
-		order: 3;
-	}
-
-	.shopping img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-		order: 2;
-	}
-
-	/* WEST SIDE */
-
-	/* CYKELTUR */
-
-	/* L'AQUARIUM */
-
-	/* LA RAMBLA */
-
-	/* LA SAGRADA FAMILIA */
-
-	/* ZOO DE BARCELONA */
-
-	/* TRANSPORT-CYKEL */
-
-	/* TRANSPORT-TRANSFER */
-
-	/* TRANSPORT-TUNNELBANA */
-
-	/* FÖRBEREDELSER HEMMA-FLYG */
-
-	.hemmaflyg {
-		display: flex;
-		flex-direction: column;
-		margin: 10px;
-	}
-
-	.hemmaflyg h1 {
-		margin-top: 20px;
-	}
-
-	.hemmaflyg p {
-		margin-top: 20px;
-	}
-
-	.hemmaflyg img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-	}
-
-	.hemmaflyg a {
-		color: black;
-	}
-
-	/* FÖRBEREDELSER HEMMA-HOTELL */
-
-	.hemmahotell {
-		display: flex;
-		flex-direction: column;
-		margin: 10px;
-	}
-
-	.hemmahotell h1 {
-		margin-top: 20px;
-	}
-
-	.hemmahotell p {
-		margin-top: 20px;
-	}
-
-	.hemmahotell img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-	}
-
-	.hemmahotell a {
-		color: black;
-	}
-
-	/* FÖRBEREDELSER HEMMA-PERIODER */
-
-	.hemmaperioder {
-		display: flex;
-		flex-direction: column;
-		margin: 10px;
-	}
-
-	.hemmaperioder h1 {
-		margin-top: 20px;
-	}
-
-	.hemmaperioder p {
-		margin-top: 20px;
-	}
-
-	.hemmaperioder img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-	}
 }
 
 /* Large devices (desktops, 992px and up) ***********************/
@@ -946,131 +396,8 @@ p {
 		margin-top: 2%;
 		text-align: center;
 		line-height: 1.35em;
-		color: black;
 	}
 
-	/* INTRODUCTION END */
-
-	/* [PRISER] */
-
-	.shopping {
-		display: flex;
-		flex-direction: column;
-		margin: 5% 15% 5% 15%;
-	}
-
-	.shopping h1 {
-		margin-top: 20px;
-		order: 1;
-	}
-
-	.shopping p {
-		margin-top: 20px;
-		order: 3;
-	}
-
-	.shopping img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-		order: 2;
-	}
-
-	/* WEST SIDE */
-
-	/* CYKELTUR */
-
-	/* L'AQUARIUM */
-
-	/* LA RAMBLA */
-
-	/* LA SAGRADA FAMILIA */
-
-	/* ZOO DE BARCELONA */
-
-	/* TRANSPORT-CYKEL */
-
-	/* TRANSPORT-TRANSFER */
-
-	/* TRANSPORT-TUNNELBANA */
-
-	/* FÖRBEREDELSER HEMMA-FLYG */
-
-	.hemmaflyg {
-		display: flex;
-		flex-direction: column;
-		margin: 5% 15% 5% 15%;
-	}
-
-	.hemmaflyg h1 {
-		margin-top: 20px;
-	}
-
-	.hemmaflyg p {
-		margin-top: 20px;
-	}
-
-	.hemmaflyg img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-	}
-
-	.hemmaflyg a {
-		color: black;
-	}
-
-	/* FÖRBEREDELSER HEMMA-HOTELL */
-
-	.hemmahotell {
-		display: flex;
-		flex-direction: column;
-		margin: 5% 15% 5% 15%;
-	}
-
-	.hemmahotell h1 {
-		margin-top: 20px;
-	}
-
-	.hemmahotell p {
-		margin-top: 20px;
-	}
-
-	.hemmahotell img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-	}
-
-	.hemmahotell a {
-		color: black;
-	}
-
-	/* FÖRBEREDELSER HEMMA-PERIODER */
-
-	.hemmaperioder {
-		display: flex;
-		flex-direction: column;
-		margin: 5% 15% 5% 15%;
-	}
-
-	.hemmaperioder h1 {
-		margin-top: 20px;
-	}
-
-	.hemmaperioder p {
-		margin-top: 20px;
-	}
-
-	.hemmaperioder img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-	}
 }
 
 /* Large devices (desktops, 1200px and up) *********************/
@@ -1126,130 +453,7 @@ p {
 		width: 60%;
 		align-self: center;
 		line-height: 1.75em;
-		color: black;
 		margin-bottom: 32px;
 	}
 
-	/* INTRODUCTION END */
-
-	/* [PRISER] */
-
-	.shopping {
-		display: flex;
-		flex-direction: column;
-		margin: 5% 15% 5% 15%;
-	}
-
-	.shopping h1 {
-		margin-top: 20px;
-		order: 1;
-	}
-
-	.shopping p {
-		margin-top: 20px;
-		order: 3;
-	}
-
-	.shopping img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-		order: 2;
-	}
-
-	/* WEST SIDE */
-
-	/* CYKELTUR */
-
-	/* L'AQUARIUM */
-
-	/* LA RAMBLA */
-
-	/* LA SAGRADA FAMILIA */
-
-	/* ZOO DE BARCELONA */
-
-	/* TRANSPORT-CYKEL */
-
-	/* TRANSPORT-TRANSFER */
-
-	/* TRANSPORT-TUNNELBANA */
-
-	/* FÖRBEREDELSER HEMMA-FLYG */
-
-	.hemmaflyg {
-		display: flex;
-		flex-direction: column;
-		margin: 5% 15% 5% 15%;
-	}
-
-	.hemmaflyg h1 {
-		margin-top: 20px;
-	}
-
-	.hemmaflyg p {
-		margin-top: 20px;
-	}
-
-	.hemmaflyg img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-	}
-
-	.hemmaflyg a {
-		color: black;
-	}
-
-	/* FÖRBEREDELSER HEMMA-HOTELL */
-
-	.hemmahotell {
-		display: flex;
-		flex-direction: column;
-		margin: 5% 15% 5% 15%;
-	}
-
-	.hemmahotell h1 {
-		margin-top: 20px;
-	}
-
-	.hemmahotell p {
-		margin-top: 20px;
-	}
-
-	.hemmahotell img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-	}
-
-	.hemmahotell a {
-		color: black;
-	}
-
-	/* FÖRBEREDELSER HEMMA-PERIODER */
-
-	.hemmaperioder {
-		display: flex;
-		flex-direction: column;
-		margin: 5% 15% 5% 15%;
-	}
-
-	.hemmaperioder h1 {
-		margin-top: 20px;
-	}
-
-	.hemmaperioder p {
-		margin-top: 20px;
-	}
-
-	.hemmaperioder img {
-		max-width: 100%;
-		height: auto;
-		border: 1px solid black;
-		margin: 20px 0px 0px 0px;
-	}
 }
