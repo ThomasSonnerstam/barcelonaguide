@@ -38,7 +38,7 @@
                             <a href="lasagradafamilia.php">La Sagrada Familia</a>
                         </li>
                         <li>
-                            <a href="zoodebarcelona.php">Zooo de Barcelona</a>
+                            <a href="zoodebarcelona.php">Zoo de Barcelona</a>
                         </li>
                     </ul>
                 </li>

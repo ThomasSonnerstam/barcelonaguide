@@ -1,7 +1,6 @@
 <?php require __DIR__ . '/header.php'; ?>
 
 <section class="cykeltur">
-	<div></div>
 	<h1>Cykeltur: Destination Norr</h1>
 	<p>
 		Under en heldag hyrde jag cykel för att ta mig till den norra delen av staden, där jag bland annat besökte populära resemål såsom den berömda <strong>”Parc Güell”</strong> och fotbollsarenan <strong>Camp Nou</strong>.
